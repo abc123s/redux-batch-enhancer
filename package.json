@@ -1,0 +1,28 @@
+{
+  "name": "redux-batch-enhancer",
+  "version": "0.1.0",
+  "description": "Store enhancer and action creator that enables batching subscriber notifications for an array of actions, including complex actions (e.g. thunks) enabled by middleware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abc123s/redux-batch-enhancer.git"
+  },
+  "keywords": [
+    "redux",
+    "batch",
+    "batched",
+    "action",
+    "subscribe",
+    "reactjs",
+    "react"
+  ],
+  "author": "Peter Zhang <Peter0Zhang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abc123s/redux-batch-enhancer/issues"
+  },
+  "homepage": "https://github.com/abc123s/redux-batch-enhancer#readme"
+}
