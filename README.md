@@ -1,5 +1,5 @@
 # redux-batch-enhancer
-Store enhancer and action creator that enables batching subscriber notifications for an array of actions, including complex actions (e.g. thunks) enabled by middleware.
+Store enhancer and action creator that enables batching subscriber notifications for an array of actions, including complex actions (e.g. thunks) enabled by middleware. Inspired by [redux-batched-actions](https://github.com/tshelburne/redux-batched-actions) and [redux-batched-subscribe](https://github.com/tappleby/redux-batched-subscribe).
 
 # Installation
 ```
