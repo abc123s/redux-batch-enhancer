@@ -2,6 +2,10 @@
 Store enhancer and action creator that enables batching subscriber notifications for an array of actions, including complex actions (e.g. thunks) enabled by middleware.
 
 # Installation
+```
+npm install --save redux-batch-enhancer
+```
+Then to enable, apply the provided store enhancer (```batchStoreEnhancer```) and middleware (```batchMiddleware```):
 ```javascript
 import { createStore } from 'redux'
 import { batchEnhancer, batchMiddleware } from 'redux-batch-enhancer'
