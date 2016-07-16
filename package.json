@@ -1,7 +1,7 @@
 {
   "name": "redux-batch-enhancer",
-  "version": "0.1.0",
-  "description": "Store enhancer and action creator that enables batching subscriber notifications for an array of actions, including complex actions (e.g. thunks) enabled by middleware.",
+  "version": "0.1.2",
+  "description": "Batch subscriber notification for an array of actions (including complex actions, e.g. thunks).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
