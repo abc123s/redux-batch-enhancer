@@ -1,6 +1,6 @@
 {
   "name": "redux-batch-enhancer",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Batch subscriber notification for an array of actions (including complex actions, e.g. thunks).",
   "main": "index.js",
   "main": "lib/index.js",
