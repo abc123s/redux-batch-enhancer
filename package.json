@@ -3,8 +3,10 @@
   "version": "0.1.2",
   "description": "Batch subscriber notification for an array of actions (including complex actions, e.g. thunks).",
   "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,10 @@
   "bugs": {
     "url": "https://github.com/abc123s/redux-batch-enhancer/issues"
   },
-  "homepage": "https://github.com/abc123s/redux-batch-enhancer#readme"
+  "homepage": "https://github.com/abc123s/redux-batch-enhancer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-1": "^6.5.0"
+  }
 }
