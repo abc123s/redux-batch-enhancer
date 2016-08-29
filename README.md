@@ -8,7 +8,7 @@ npm install --save redux-batch-enhancer
 Then to enable, apply the provided store enhancer (```batchStoreEnhancer```) and middleware (```batchMiddleware```):
 ```javascript
 import { createStore } from 'redux'
-import { batchEnhancer, batchMiddleware } from 'redux-batch-enhancer'
+import { batchStoreEnhancer, batchMiddleware } from 'redux-batch-enhancer'
 
 const store = createStore(
   reducer,
