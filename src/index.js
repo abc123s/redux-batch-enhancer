@@ -13,10 +13,16 @@ export function batchMiddleware({ dispatch }) {
         case BATCH: {
           dispatch({ type: PUSH });
           const returnArray = [];
-          action.payload.forEach((batchedAction) => {
-            returnArray.push(dispatch(batchedAction));
-          });
-          dispatch({ type: POP });
+          try {
+              action.payload.forEach((batchedAction) => {
+                  returnArray.push(dispatch(batchedAction));
+              });
+          } catch(e) {
+            throw e;
+          } finally {
+              dispatch({ type: POP });
+          }
+
           return returnArray;
         }
         default: {
